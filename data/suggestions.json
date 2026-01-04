@@ -3,10 +3,71 @@
     "id": 1767473637669,
     "name": "Buda Castle",
     "location": "https://maps.app.goo.gl/atn5s9pe7QUf6KsT8",
-    "description": "A castle with panoramic view. An oversight for river Danube and Pest side of city.",
-    "timings": "open 24 hours",
+    "description": "A castle with panoramic view. An oversight for river Danube and Pest side of city. Also, home to the Hungarian National Gallery and the Budapest History Museum.",
+    "timings": "open 24 hours (but not the museums.)",
     "photo": "/uploads/1767473584010-buda castle.jpg",
-    "approxTime": "about half an hour",
+    "approxTime": "about half an hour (but not the museums.)",
     "importantLink": "https://budavar.hu/budai-var/"
+  },
+  {
+    "id": 1767540519488,
+    "name": "Fisherman's Bastion",
+    "location": "https://maps.app.goo.gl/cdwkNCAfZUgFYqmB7",
+    "description": "A castle like place giving magnificent views to the parliament building and Danube from its turrets and terraces. Also place to Matthias church.",
+    "timings": "open 24 hours",
+    "photo": "/uploads/1767540519467-Halaszbastya-Fishermans-Bastion-Budapest.jpg",
+    "approxTime": "half an hour",
+    "importantLink": "https://budavar.hu/halaszbastya/"
+  },
+  {
+    "id": 1767541300816,
+    "name": "Castle District",
+    "location": "https://maps.app.goo.gl/GEzVdTrJGh7BRMgz5",
+    "description": "This is the neighbourhood near Buda castle and fisheman's bastion. Offering beautiful streets with many shops.",
+    "timings": "open 24 hours",
+    "photo": "/uploads/1767541300789-image_2026-01-04_164106132.png",
+    "approxTime": "one hour",
+    "importantLink": "https://maps.app.goo.gl/xCpU8KFyHMaYNpZa7"
+  },
+  {
+    "id": 1767541693196,
+    "name": "Budapest Castle Hill Funicular",
+    "location": "https://maps.app.goo.gl/LnFEPv6SHFsHQvgq8",
+    "description": "A funicular leading to Buda Castle with very beautiful view for Chain bridge.",
+    "timings": "08:00 -22:00",
+    "photo": "/uploads/1767541693190-funicular.jpg",
+    "approxTime": "some minutes",
+    "importantLink": "https://www.bkv.hu/en/content/buda_castle_funicular_en"
+  },
+  {
+    "id": 1767542049902,
+    "name": "Hungarian Parliament Building",
+    "location": "https://maps.app.goo.gl/wHvrkjvdL4QbiYS6A",
+    "description": "Parliament building, among the biggest parliament building. It is a nice place to visit, not just outsides but also from inside as well. Inside parliament offers grand stairway as well as dome where crown is palced.",
+    "timings": "open 24 hours (outside XD); 8 am–6 pm (indoor visit)",
+    "photo": "/uploads/1767542049894-images.jpg",
+    "approxTime": "1–1.5 hours",
+    "importantLink": "https://www.parlament.hu/"
+  },
+  {
+    "id": 1767542527964,
+    "name": "St. Stephen's Basilica",
+    "location": "https://maps.app.goo.gl/C8w5EpdPHJTpfgHi6",
+    "description": "A basilica in the heart of Budapest, very photogenic place.",
+    "timings": "open 24 hours (outside); Tuesday, 9 am–5:45 pm (indoor visit)",
+    "photo": "/uploads/1767542527955-basilica.jpg",
+    "approxTime": "sa",
+    "importantLink": "https://bazilikabudapest.hu/"
+  },
+  {
+    "id": 1767542905778,
+    "name": "Budapest Fashion Street",
+    "location": "https://maps.app.goo.gl/NiD1f1WEC7nAfQ2C7",
+    "description": "A palce with a number of fashion stores, close to Basilica.",
+    "timings": "open 24 hours; but stores have timings",
+    "approxTime": "sa",
+    "importantLink": "http://fashionstreet.hu/",
+    "photo": "/uploads/1767542905764-fashion street.jpg",
+    "createdAt": "2026-01-04T16:08:25.778Z"
   }
 ]

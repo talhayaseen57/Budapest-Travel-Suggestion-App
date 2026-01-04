@@ -32,26 +32,59 @@ app.get("/admin", (req, res) => {
 
 // Get suggestions
 app.get("/api/suggestions", (req, res) => {
-  const data = fs.readFileSync("data/suggestions.json");
-  res.json(JSON.parse(data));
+  try {
+    const filePath = "data/suggestions.json";
+
+    if (!fs.existsSync(filePath)) {
+      return res.json([]);
+    }
+
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    res.setHeader("Cache-Control", "no-store");
+    res.json(data);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json([]);
+  }
 });
 
 // Add suggestion
 app.post("/api/suggestions", upload.single("photo"), (req, res) => {
-  const data = JSON.parse(fs.readFileSync("data/suggestions.json"));
-  const newItem = {
-    id: Date.now(),
-    name: req.body.name,
-    location: req.body.location,
-    description: req.body.description,
-    timings: req.body.timings,
-    photo: req.file ? "/uploads/" + req.file.filename : "",
-    approxTime: req.body.approxTime,
-    importantLink: req.body.importantLink,
-  };
-  data.push(newItem);
-  fs.writeFileSync("data/suggestions.json", JSON.stringify(data, null, 2));
-  res.redirect("/");
+  try {
+    console.log("saving operation started...");
+    const filePath = "data/suggestions.json";
+
+    // Ensure file exists
+    if (!fs.existsSync(filePath)) {
+      fs.writeFileSync(filePath, JSON.stringify([]));
+    }
+
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+    console.log("data before:\n", data);
+
+    const newItem = {
+      id: Date.now(),
+      name: req.body.name,
+      location: req.body.location,
+      description: req.body.description,
+      timings: req.body.timings,
+      approxTime: req.body.approxTime,
+      importantLink: req.body.importantLink,
+      photo: req.file ? `/uploads/${req.file.filename}` : "",
+      createdAt: new Date().toISOString(),
+    };
+
+    data.push(newItem);
+    console.log("data after:\n", data);
+
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    
+    res.status(201).json(newItem);
+  } catch (err) {
+    console.error("Error saving suggestion:", err);
+    res.status(500).json({ error: "Failed to save suggestion" });
+  }
 });
 
 // Start server
