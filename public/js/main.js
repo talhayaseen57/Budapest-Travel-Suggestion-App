@@ -7,7 +7,7 @@ fetch("/api/suggestions")
       const col = document.createElement("div");
 
       // ✅ Bootstrap column must be DIRECT child of .row
-      col.className = "col-md-6 travel-card";
+      col.className = "col-md-4 travel-card";
 
       col.innerHTML = `
         <div class="card border-0 shadow-lg h-100 rounded-4 overflow-hidden">
@@ -63,6 +63,9 @@ document
     }
 
     const newItem = await res.json();
+
+    // hiding the submit form
+    document.getElementById("add-form").style.display = "none";
 
     addCard(newItem); // inject immediately
     e.target.reset();

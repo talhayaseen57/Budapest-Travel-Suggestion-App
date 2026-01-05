@@ -51,7 +51,6 @@ app.get("/api/suggestions", (req, res) => {
 // Add suggestion
 app.post("/api/suggestions", upload.single("photo"), (req, res) => {
   try {
-    console.log("saving operation started...");
     const filePath = "data/suggestions.json";
 
     // Ensure file exists
@@ -60,8 +59,6 @@ app.post("/api/suggestions", upload.single("photo"), (req, res) => {
     }
 
     const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-
-    console.log("data before:\n", data);
 
     const newItem = {
       id: Date.now(),
@@ -76,7 +73,6 @@ app.post("/api/suggestions", upload.single("photo"), (req, res) => {
     };
 
     data.push(newItem);
-    console.log("data after:\n", data);
 
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     
