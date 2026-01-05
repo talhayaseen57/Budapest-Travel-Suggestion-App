@@ -75,7 +75,7 @@ function addCard(item) {
   const container = document.getElementById("suggestions-container");
 
   const col = document.createElement("div");
-  col.className = "col-md-6 travel-card";
+  col.className = "col-md-4 travel-card";
 
   col.innerHTML = `
                 <div class="card border-0 shadow-lg h-100 rounded-4 overflow-hidden">
