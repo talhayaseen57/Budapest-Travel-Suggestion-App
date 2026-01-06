@@ -69,5 +69,82 @@
     "importantLink": "http://fashionstreet.hu/",
     "photo": "/uploads/1767542905764-fashion street.jpg",
     "createdAt": "2026-01-04T16:08:25.778Z"
+  },
+  {
+    "id": 1767712266816,
+    "name": "Light Art Museum",
+    "location": "https://maps.app.goo.gl/umohBD3BFnNiDfiT9",
+    "description": "One of the world's largest museums dedicated to showcase light as a medium of art.",
+    "timings": "10 am–9 pm (weekend)",
+    "approxTime": "sd",
+    "importantLink": "https://lam.xyz/",
+    "photo": "/uploads/1767712266704-light art.jpg",
+    "createdAt": "2026-01-06T15:11:06.816Z"
+  },
+  {
+    "id": 1767712451227,
+    "name": "Museum of Illusions",
+    "location": "https://maps.app.goo.gl/cfsaY5sstxaJyeZ76",
+    "description": "Museum of Illusions is a visual, sensory, and educational experience designed to engage your sense of wonder and shift your perspective through the science.",
+    "timings": "(Sun - Thu) 10 am–7 pm; (Fri - Sat) 10 am–8 pm",
+    "approxTime": "sd",
+    "importantLink": "https://www.instagram.com/museumofillusions_budapest/",
+    "photo": "/uploads/1767712451219-illusion.jpg",
+    "createdAt": "2026-01-06T15:14:11.227Z"
+  },
+  {
+    "id": 1767712677461,
+    "name": "Museum of Sweets and Selfies No.1: Orgin",
+    "location": "https://maps.app.goo.gl/6xS59aa7WrS7j72U7",
+    "description": "Colorful scenarios designed for self-photography, including fantasy figures & multicolored rooms.",
+    "timings": "everyday, 10 am–7 pm",
+    "approxTime": "sd",
+    "importantLink": "https://szelfimuzeum.hu/en/",
+    "photo": "/uploads/1767712677457-bubble-bar.jpg",
+    "createdAt": "2026-01-06T15:17:57.461Z"
+  },
+  {
+    "id": 1767712919531,
+    "name": "INDOOR MiniGolf Budapest",
+    "location": "https://maps.app.goo.gl/AcceonDjf257STDt8",
+    "description": "The realm of 3D blacklight mini golf awaits you on an 18-hole adventure course in the heart of the city!",
+    "timings": "10 am–10 pm  (weekends)",
+    "approxTime": "sd",
+    "importantLink": "https://indoorbudapest.hu/",
+    "photo": "/uploads/1767712919471-minigolf.png",
+    "createdAt": "2026-01-06T15:21:59.531Z"
+  },
+  {
+    "id": 1767713145581,
+    "name": "Szimpla Kert (Budapest ruin bars)",
+    "location": "https://maps.app.goo.gl/86uY7gwR6bKuSDg68",
+    "description": "Huge pub with old mismatched items & a disused Trabant car, with music, food, market & a garden.",
+    "timings": "Saturday, 12 pm–4 am; Sunday, 9 am–4 am",
+    "approxTime": "sd",
+    "importantLink": "https://szimpla.hu/",
+    "photo": "/uploads/1767713145509-Budapest,_Szimpla_Kert,_1.jpg",
+    "createdAt": "2026-01-06T15:25:45.582Z"
+  },
+  {
+    "id": 1767713974011,
+    "name": "Metropolitan Ervin Szabó Library (seems like Harry Potter world)",
+    "location": "https://maps.app.goo.gl/nVtPmredfD5ad36z7",
+    "description": "This is a very scenic library with a palace looks like Harry Potter world.",
+    "timings": "Saturday, 10 am–4 pm; Sunday, closed",
+    "approxTime": "sd",
+    "importantLink": "http://www.fszek.hu/",
+    "photo": "/uploads/1767713974006-Metropolitan Ervin SzabÃ³ Library.jpg",
+    "createdAt": "2026-01-06T15:39:34.011Z"
+  },
+  {
+    "id": 1767714249408,
+    "name": "Citadel (Liberty Queen)",
+    "location": "https://maps.app.goo.gl/6nfPxsd66San8ke78",
+    "description": "This is an iconic statue hovering over the city. The hit top is closed now but the base is yet accessible. Also, the overlook to the city looks very beautiful here.",
+    "timings": "Temporarily closed; but accessible till the base of the statue",
+    "approxTime": "sd",
+    "importantLink": "https://www.budapestinfo.hu/en/gellert-hill-and-the-citadel",
+    "photo": "/uploads/1767714249406-citadel.jpg",
+    "createdAt": "2026-01-06T15:44:09.408Z"
   }
 ]
